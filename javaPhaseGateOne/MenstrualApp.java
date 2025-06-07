@@ -65,7 +65,7 @@ int safePeriod2Start = fertileEndDay + 1; // Day after fertile window ends
 int safePeriod2End = nextPeriodDay - 1; // Day before next period starts
 
            
-System.out.println("\nHere’s your cycle info (all days are in the month): ");
+System.out.println("\nHere’s your cycle info: ");
 System.out.println("Your last flow was: Day " + lastPeriodDay + " to Day " + flowEndDay);
 System.out.println("Your next period starts on: Day " + nextPeriodDay);
 System.out.println("Ovulation date: Day " + ovulationDay);
